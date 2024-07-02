@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.cabecalho{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding: 18px;
+    position: fixed;
+    border-bottom: 2px solid #D8AC00;
+    margin: 0px auto;
+}
+
+.cabecalho h1{
+    text-align: center;
+    color: #D8AC00;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav_cabecalho {
+    width: 100%;
+}
+
+a{
+    text-align: center;
+    color: #D8AC00;
+    font: 12px;
+    margin: 20px 10px;
+}
+
+.section_banner{
+    background-image: url("/assets/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 950px;
+}
+
+.apresentacao{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.apresentacao h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.paragrafo_apresentacao{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+.apresentacao img{
+    border-radius: 10px;
+    border: 2px solid #D8AC00;
+    box-shadow: 3px 6px 10px 6px  #0000005c;
+    margin-bottom: 25px;
+}
+
+.paragrafo2_apresentacao{
+    max-width: 980px;
+    margin: 0px auto;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: justify;
+    line-height:23px
+}
+
+span{
+    color: #D8AC00;
+    font-weight: bold;
+}
+
+.section_consultores{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.section_consultores h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.section_consultores img{
+    width: 450px;
+    box-shadow: 3px 6px 10px 6px  #0000005c ;
+    margin-bottom: 35px;
+}
+
+.section_consultores p{
+    font-size: 17px;
+    font-family: sans-serif;
+    line-height: 23px;
+    font-weight: 450;
+    margin: 0px auto 90px auto;
+    max-width: 920px;
+}
+
+.Localizacao_Mapa{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Localizacao_Mapa h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.Localizacao_Mapa iframe {
+    width: 900px;
+    height: 450px;
+    box-shadow: 3px 6px 10px 6px  #0000005c;
+    margin-bottom: 30px;
+}
+
+.Localizacao_Mapa p{
+    max-width: 910px;
+    padding: 30px;
+    margin: 0px auto;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
